@@ -13,6 +13,15 @@ launchDate: string;
         this.orbitType = orbitType;
         this.operational = operational;
     }
+
+    //shouldShowWarning() {
+    // if (orbitType.lowercase === 'space debris') {
+    //return true
+    // } else {
+    // return false
+    //}
+    //}
+     
 }
 
 
