@@ -15,7 +15,7 @@ launchDate: string;
     }
 
     shouldShowWarning(): boolean {
-        return this.type === 'Space Debris'     
+        return this.type.toLowerCase() === 'space debris'     
     } 
 }
      
